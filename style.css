@@ -1,0 +1,110 @@
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  text-align: center;
+  background-color: #cbd7f0;
+  color: #849ed6;
+}
+
+.dressup-view {
+  margin: auto;
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-color: #849ed6;
+  border-width: 4px;
+}
+
+.options {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.itembtn {
+  background-color: transparent;
+  border-style: none;
+}
+
+.itembtn:hover {
+  cursor: pointer;
+}
+
+.itembtn img {
+  height: 70px;
+  width: 70px;
+}
+
+.dressup-view {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border: 4px solid #849ed6;
+  background-color: #f9f9f9;
+}
+
+#base-img {
+  position: absolute;
+  width: 90px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  pointer-events: none;
+}
+
+#back-btn {
+  background-color: transparent;
+  border-style: none;
+}
+
+#back-btn img {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -30%);
+}
+
+#back-btn:hover {
+  cursor: pointer;
+}
+
+#forward-btn {
+  background-color: transparent;
+  border-style: none;
+}
+
+#forward-btn img {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -30%);
+}
+
+#forward-btn:hover {
+  cursor: pointer;
+}
+
+#hat-img {
+  position: absolute;
+  top: 105px;
+  left: 51%;
+  transform: translateX(-50%);
+  width: 50px;
+  pointer-events: none;
+}
+
+#shoe-img {
+  position: absolute;
+  bottom: 17px;
+  left: 50.5%;
+  transform: translateX(-50%);
+  width: 45px;
+  pointer-events: none;
+}
